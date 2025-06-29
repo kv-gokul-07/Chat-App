@@ -3,7 +3,7 @@ import { LoginPage, HomePage, ProfilePage } from './routes/routeComponents'
 
 const App = () => {
   return (
-    <div className='bg-grey-500'>
+    <div className='bg-image'>
       <Routes>
         <Route path='/' Component={LoginPage} />
         <Route path='/login' Component={LoginPage} />

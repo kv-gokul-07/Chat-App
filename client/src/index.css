@@ -1,7 +1,91 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
     font-family: "Outfit", sans-serif;  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.flex-ac-jc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.max-width {
+    max-width: 100%;
+}
+/* //Colors */
+.whiteColor {
+    color: #ffffff;
+}
+
+.bg-image {
+    background: url("./assets/bgImage.svg");
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-container {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.panels-container {
+    height: 100%;
+}
+
+.panels {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.center-panel {
+    backdrop-filter: blur(2px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.default-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-default-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-default-image img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* //Left panel */
+.home-left-section {
+    padding: 1rem;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.menu-icon img {
+    width: 20px;
 }
 
 ::-webkit-scrollbar {

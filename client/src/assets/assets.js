@@ -4,6 +4,7 @@ import help_icon from './help_icon.png'
 import logo_icon from './logo_icon.svg'
 import logo_big from './logo_big.svg'
 import logo from './logo.png'
+import fav from './favicon.svg'
 import profile_richard from './profile_richard.png'
 import profile_alison from './profile_alison.png'
 import profile_enrique from './profile_enrique.png'
@@ -35,7 +36,8 @@ const assets = {
     arrow_icon,
     code,
     bgImage,
-    profile_martin
+    profile_martin,
+    fav
 }
 
 export default assets;
